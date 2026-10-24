@@ -1,0 +1,15 @@
+[package]
+name = "jukebox"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ncm-api-rs = "0.1.0"
+ratatui = "0.30.2"
+crossterm = "0.29"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+serde_json = "1"
+qrcodegen = "1.8"
+gstreamer = "~0.25"
+gstreamer-play = "~0.25"
+glib = "~0.22"
